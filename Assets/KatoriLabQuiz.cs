@@ -8,7 +8,7 @@ public class KatoriLabQuiz : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        DataAnnnai.Instance.referer="KatoriLabQuiz";
     }
 
     // Update is called once per frame
