@@ -11,7 +11,7 @@ public class TwelveDirector : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("あああああ");
-        if (collision.gameObject.tag == "Enter7")
+        if (collision.gameObject.tag == "QuizLab")
         {
             SceneManager.LoadScene("LaboratoryQuiz");
         }
@@ -34,6 +34,10 @@ public class TwelveDirector : MonoBehaviour
         if (collision.gameObject.tag == "Inf")
         {
             SceneManager.LoadScene("Information");
+        }
+        if (collision.gameObject.tag == "Inf2")
+        {
+            SceneManager.LoadScene("KomadaInf");
         }
         
         

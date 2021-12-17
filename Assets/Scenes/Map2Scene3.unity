@@ -1471,6 +1471,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "4\u679A\u30BF\u30A4\u30EB 1 (11)"
       objectReference: {fileID: 0}
+    - target: {fileID: 6917254167407312782, guid: 14b18fd683bb44dbf91c4bbc9585eaaa,
+        type: 3}
+      propertyPath: m_TagString
+      value: Map2Scene3_1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14b18fd683bb44dbf91c4bbc9585eaaa, type: 3}
 --- !u!1001 &1835938085

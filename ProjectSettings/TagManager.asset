@@ -19,6 +19,13 @@ TagManager:
   - Map2Scene3_1
   - Map2Scene3_2
   - Inf
+  - Quiz
+  - QuizLab
+  - Enter8
+  - Ticket
+  - Ticket_job
+  - LastQuiz
+  - Inf2
   layers:
   - Default
   - TransparentFX
