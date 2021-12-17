@@ -25,17 +25,20 @@ public class Music : MonoBehaviour
 
 	void OnActiveSceneChanged(Scene prevScene, Scene nextScene)
 	{
-        if (nextScene.name == "Result")
+        if (nextScene.name == "Result"||nextScene.name == "MapScene")
         {
 
 			audioSource = this.GetComponent<AudioSource>();
 			audioSource.Stop();
 			//or
 			//Destroy(gameObject);
-		
+
 		}
+		// if (nextScene.name == "MapScene") {
+		// 	audioSource=this.GetComponent<AudioSource>();
+		// 	audioSource.Stop();
+		// }
+
         else return;
 	}
 }
-	
-
